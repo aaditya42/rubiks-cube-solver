@@ -2,16 +2,15 @@
   <img src="https://img.shields.io/badge/C++-17-blue?logo=cplusplus&logoColor=white" alt="C++17"/>
   <img src="https://img.shields.io/badge/Algorithm-IDA*-orange" alt="IDA*"/>
   <img src="https://img.shields.io/badge/Optimal-Solutions-green" alt="Optimal"/>
-  <img src="https://img.shields.io/badge/License-MIT-yellow" alt="MIT License"/>
 </p>
 
-# 🧊 Rubik's Cube Solver
+#  Rubik's Cube Solver
 
 A high-performance, optimal 3×3 Rubik's Cube solver built in C++ using **Korf's IDA\*** algorithm with **pattern database heuristics**. Finds the shortest possible solution for any scrambled state.
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Optimal Solutions** — Guarantees the minimum number of moves to solve any scramble
 - **Multiple Search Algorithms** — BFS, DFS, IDDFS, and IDA\* (Iterative Deepening A\*)
@@ -23,7 +22,7 @@ A high-performance, optimal 3×3 Rubik's Cube solver built in C++ using **Korf's
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -64,7 +63,7 @@ make
 
 ---
 
-## 📊 Benchmark Results
+##  Benchmark Results
 
 All tests find **optimal solutions** verified by replaying the moves.
 
@@ -91,7 +90,7 @@ Solving the same 5-move scramble (`R U F D L`):
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -118,7 +117,7 @@ Solving the same 5-move scramble (`R U F D L`):
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ### Cube Representation
 
@@ -173,7 +172,7 @@ The core solver uses **Korf's IDA\* algorithm**:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 rubiks-cube-solver/
@@ -188,7 +187,7 @@ rubiks-cube-solver/
 
 ---
 
-## 🔧 Build Targets
+##  Build Targets
 
 ```bash
 make          # Build optimized binary
@@ -199,7 +198,7 @@ make clean    # Remove build artifacts
 
 ---
 
-## 📖 Sample Output
+##  Sample Output
 
 ```
 ================================================================
@@ -227,7 +226,7 @@ Verify:    PASS ✓
 
 ---
 
-## ⚡ Performance Notes
+## Performance Notes
 
 - **Pattern database initialization** takes ~3–5 seconds on first run (one-time cost)
 - Scrambles up to **~10 moves** solve in under **1 second**
@@ -237,7 +236,7 @@ Verify:    PASS ✓
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Some ideas for improvement:
 
@@ -250,7 +249,7 @@ Contributions are welcome! Some ideas for improvement:
 ---
 
 
-## 📚 References
+##  References
 
 - Korf, R. E. (1997). *Finding Optimal Solutions to Rubik's Cube Using Pattern Databases*. AAAI-97.
 - Kociemba, H. *The Two-Phase Algorithm*. [kociemba.org](http://kociemba.org/cube.htm)
